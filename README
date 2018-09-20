@@ -1,0 +1,15 @@
+Popescu Flavia-Alexandra 
+311CD
+
+						README
+
+	Pentru rezolvarea temei am folosit 2 structuri:
+-> ListNode - pentru lista de adiacenta;
+-> Tgraph - pentr a tien minte toate datele pentru un graf: nr. de orase, nr. drumuri, costurile si lista de adiacenta.
+
+	Subprogramele folosite sunt:
+-> addElement - adauga un nou element din graf in lista de adiacenta;
+-> DFS - parcurgerea grafului in adancime folosit pentru determinarea numarului de elemente conexe;
+-> noConexEl - folosind DFS, calculeaza numarul de componente conexe din graf;
+-> readGraph - citeste datele despre graf din fisier si le memoreaza in Tgraph graph;
+-> computeCost - tinanad cont de costul drumului si al scolii si de numarul de componenete conexe calculeaza costul minim.
